@@ -57,3 +57,6 @@ h3{font-size:16px;font-weight:600;margin:0 0 8px}
 @media(max-width:600px){.wrap{width:calc(100% - 40px)}.header{min-height:78px;gap:15px}nav{gap:17px}.brand{font-size:23px}.intro{padding:42px 0 34px}.lead{font-size:17px}.feature-grid{grid-template-columns:1fr;gap:23px}.features{padding:27px 0 32px}.next{padding:22px;margin-bottom:30px}.contact{padding-bottom:30px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 @media(max-width:480px){.header{flex-wrap:wrap;padding-block:16px;gap:12px}.header nav{width:100%;justify-content:flex-end}}
+
+#v2-specifications-title + .spec-grid td{white-space:normal}
+#v2-specifications-title + .spec-grid small{font-size:12px;color:var(--muted)}
