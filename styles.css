@@ -60,3 +60,28 @@ h3{font-size:16px;font-weight:600;margin:0 0 8px}
 
 #v2-specifications-title + .spec-grid td{white-space:normal}
 #v2-specifications-title + .spec-grid small{font-size:12px;color:var(--muted)}
+
+/* Products */
+.product-hero{padding:66px 0 48px;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.05fr);align-items:center;gap:44px}
+.product-hero h1{font-size:clamp(32px,4.4vw,48px);letter-spacing:-1.2px;line-height:1.18;margin:8px 0 20px}
+.eyebrow,.card-kicker{font-size:12px;font-weight:700;letter-spacing:1.2px;color:#426277;margin:0 0 8px}
+.board-visual{margin:0}
+.board-visual img{display:block;width:100%;height:auto;border-radius:8px;border:1px solid #d9e7ea;background:#0b2630}
+.board-visual figcaption{font-size:12px;line-height:1.5;color:var(--muted);margin-top:8px}
+.product-cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.product-card{border:1px solid var(--line);border-radius:8px;padding:24px 22px;background:#fcfdfe}
+.product-card h3{font-size:18px;margin-bottom:12px}
+.product-card ul{margin:0;padding-left:19px;color:var(--muted);font-size:15px}
+.product-card li+li{margin-top:8px}
+.price-panel{display:grid;grid-template-columns:minmax(0,1fr) minmax(230px,.7fr);gap:30px;padding:27px 30px;border:1px solid #d6e4e9;border-radius:8px;background:#f4f9fa}
+.price-panel h3{font-size:22px;margin:0 0 8px}
+.price-panel p{margin:0;color:var(--muted)}
+.price-note{padding-left:25px;border-left:2px solid #94adb9;font-size:14px}
+.interest{margin:2px 0 56px;padding:38px 42px;border-radius:10px;background:#123d52;color:#f3fbff}
+.interest .eyebrow{color:#a6e0e1}
+.interest h2{font-size:28px;margin-bottom:12px}
+.interest>p:not(.eyebrow):not(.interest-meta){max-width:680px;margin:0 0 24px;color:#d4e4e8}
+.button{display:inline-block;padding:11px 17px;border-radius:5px;background:#e7f6f5;color:#163946;font-weight:700;text-decoration:none}
+.button:hover{background:#fff;color:#163946;text-decoration:none}
+.interest-meta{margin:14px 0 0;font-size:13px;color:#b9d2d8}
+@media(max-width:700px){.product-hero{grid-template-columns:1fr;padding:42px 0 34px;gap:28px}.product-cards{grid-template-columns:1fr}.price-panel{grid-template-columns:1fr;gap:18px;padding:24px}.price-note{padding-left:18px}.interest{padding:29px 24px;margin-bottom:38px}}
